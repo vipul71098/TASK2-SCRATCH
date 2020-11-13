@@ -54,30 +54,24 @@ class PictoBloxString {
         };
     }
 
-    STRINGCOMPARE ({str1,str2}) {
-        if(str1.toLowerCase() === str2.toLowerCase()){
-   
-    return "true"
-}else{
-    return "false"
-}
+        STRINGCOMPARE({str1,str2}) {
+            if(str1.toLowerCase() === str2.toLowerCase()){
+                return "true"
+            }else{
+               return "false"
+            }
     }//end of stringcompare
 
-    stringInstring({str1,str2}){
-        const indexOfFirst = str1.indexOf(str2);
-       
-        const con = str1.includes(str2)
+        stringInstring({str1,str2}){
+            const indexOfFirst = str1.indexOf(str2);
+            const con = str1.includes(str2)
         if(con){
             return  "At Index :"+ indexOfFirst
         }
         else{
             return "No string found!!"
         }
-        // if(con){
-        //     return "no string found"
-        // }else{
-        //  return indexOfFirst   
-        // }
+        
     }
 }
 
