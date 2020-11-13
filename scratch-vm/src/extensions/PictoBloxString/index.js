@@ -11,7 +11,7 @@ class PictoBloxString {
     getInfo () {
         return {
             id: 'pictoBloxString',
-            name: 'New Blocks',
+            name: 'PictoBloxString',
              blocks: [
              {
                     "opcode": "stringInstring",
